@@ -36,27 +36,35 @@
 			</div>
 		</div>
 		<div class="wrapper flex">
-			<h1>Willkommen in <br />
+			<h1>Herzlich Willkommen in <br />
                 <span>Murten!</span>
             </h1>
 		</div>
 	</header>
-    
+    <aside>
+        <div class="flex"></div>
+        <a href="#start"><img src="img/up-arrow.png" class="back-to-top"/></a>
+    </aside>
     <main>
-        <div class="wrapper">
-            <div class="flex">
-                <nav>
-                    <ul>
-                        <li><a href="#Infos">Über Murten</a></li>
-                        <li><a href="#Events">Jährliche Events</a></li>
-                        <li><a href="#Aktivitäten">Aktivitäten</a></li>
-                        <li><a href="#SoMe">soziale Medien</a></li>
-                    </ul>
-                </nav>
+        <div id="Zweit-Navigation">
+            <div class="wrapper">
+                <div class="flex">
+                    <nav>
+                        <ul>
+                            <li><a href="#Infos">Über Murten</a></li>
+                            <li><a href="#Events">Jährliche Events</a></li>
+                            <li><a href="#Aktivitäten">Aktivitäten</a></li>
+                            <li><a href="#SoMe">soziale Medien</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+        </div>
+        <div class="wrapper">
+            
             <div class="flex" id="Infos">
                 <div class="col-70">
-                    <h2>Info über Murten</h2>
+                    <h2>Über Murten</h2>
                     <p>Murten (französisch Morat; im schweizerdeutschen Ortsdialekt ist eine politische Gemeinde und Hauptort des Seebezirks (französisch District du Lac) im Schweizer Kanton Freiburg. Zu Murten gehören auch die früher selbständigen Gemeinden Altavilla (eingegliedert 1991), Burg (1975), Büchslen (2013), Courlevon, Jeuss, Lurtigen, Salvenach (alle 2016), Gempenach, Galmiz sowie das ehemals bernische Clavaleyres (alle 2022).
 
                         Murten bildet das regionale Kultur- und Wirtschaftszentrum des nördlichen Kantonsteils. Das mittelalterliche Zähringerstädtchen mit einer Ringmauer aus dem 13. bis 17. Jahrhundert und einer historischen Altstadt von nationaler Bedeutung liegt am nach ihm benannten Murtensee und war Schauplatz der Schlacht bei Murten.</p>
@@ -73,14 +81,15 @@
                 </p>
             </div>
         </div>
-            <!-- CAROUSEL STARTING HERE-->
+        <!-- CAROUSEL STARTING HERE-->
         <div class="wrapper">
                 <div class="carousel-container flex" id="Events">
                     <div class="col-30">
                         <h2>Jährliche Events</h2>
-                        <p>Täglich grüsst das Murmeltier! 
-                            Oder auch in Murten jährlich grüssen die Festivals. 
-                            Gerne bieten wir ihnen jedes Jahr verschiedenste Festivals an.
+                        <p>Täglich grüsst das Murmeltier! <br/> <br/>
+                            Oder in Murten jährlich grüssen die Festivals. 
+                            Gerne bieten wir ihnen jedes Jahr verschiedenste Festivals an. Dabei passen wir unser Angebot stets der Jahreszeit an, so kann man beispielsweise im Sommer am Stars of Sounds mittanzen oder im Winter das Lichterfestival mit einem Glühwein geniessen. 
+                            <br /> <br />
                              Klicken sie auf den Link und finden sie mehr heraus!</p>
                              <button><a href="events.html">Mehr Events</a></button>
                     </div>
@@ -103,26 +112,71 @@
               <div id="Aktivitäten">
                 <h2>Aktivitäten</h2>
                 <div class="flex">
-                    <div class="col-30">
-                        <img src="img/Murten1.jpeg" alt="Bild von Murten"/>
+                    <div class="col-25">
+                        <img src="img/altstadt.jpg" alt="Bild von Murten Altstadt"/>
+                        <div class="karten">
+                            <h3>Altstadt</h3>
+                            <p>Besuche die Altstadt von Murten! Mache einen gemütlichen Spaziergang über die Ringmauer mit einer fabelhaften Aussicht, oder lerne die verschiedenen Shops und Restaurants besser kennen. </p>
+                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                        </div>
                     </div>
-                    <div class="col-70">
-                        <h3>Schönwetter</h3>
-                        <p>Lorem Ipsum</p>
-                        <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                    <div class="col-25">
+                        <img src="img/Museum.jpg" alt="Bild vom Museum"/>
+                        <div class="karten">
+                            <h3>Museum</h3>
+                            <p>Tauche ein in die Geschichte von Murten und lerne Neues! Das Museum Murten gehört zu den ältesten Museen im Kanton Freiburg. Seit 1978 hat es seinen Standort in der alten Stadtmühle ausserhalb der Stadtmauern.  </p>
+                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                        </div>
                     </div>
-                    <div class="col-70">
-                        <h3>Schlechtwetter</h3>
-                        <p>Lorem Ipsum</p>
-                        <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                    <div class="col-25">
+                        <img src="img/hafen.jpg" alt="Bild vom Hafen"/>
+                        <div class="karten">
+                            <h3>Hafen</h3>
+                            <p>Der Hafen von Murten ist recht klein, aber sehr zentral gelegen. Die wunderschöne Stadt ist direkt zugänglich und lädt zum Erkunden ein. Gäste finden alles, was sie brauchen. Daher ist der Hafen sehr beliebt.</p>
+                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                        </div>
                     </div>
-                    <div class="col-30">
-                        <img src="img/Murten1.jpeg" alt="Bild von Murten"/>
+                    <div class="col-25">
+                        <img src="img/shoppen.webp" alt="Bild von shoppenden Frauen"/>
+                        <div class="karten">
+                            <h3>Shoppen</h3>
+                            <p>Lebensmittel, Kleidung, Schmuck oder Souvenirs? Mehr als 15 Geschäfte und charmante Boutiquen bieten Ihnen ein vielfältiges Angebot an Produkten und Handwerkskunst, welches zum Bummeln einlädt. </p>
+                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                        </div>
                     </div>
                 </div>
               </div>
               <script src="script.js"></script> 
         </div> 
     </main>
+    <footer>
+        <div class="flex wrapper">
+            <div class="col-25">
+                <h4>Gemeindeverwaltung</h4>
+                <p>Rathausgasse 17<br />
+                    Postfach 326<br />
+                    3280 Murten</p>
+            </div>
+            <div class="col-25">
+                <h4>Kontakt</h4>
+                <p>026 672 61 11<br/>
+                    <a href="mailto:info@murten-morat.ch">info@murten-morat.ch</a>
+                </p>
+            </div>
+            <div class="col-25">
+                <h4>Empfang der Stadtverwaltung</h4>
+                <p>Rathausgasse 8<br />
+                    Postfach 326<br />
+                    3280 Murten</p>
+            </div>
+            <div class="col-25">
+                <h4>Öffnungszeigen</h4>
+                <p>Montag bis Donnerstag:<br />
+                    08:30 - 11:30 Uhr<br />
+                    14:00 - 16:30 Uhr<br />
+                    Freitag bis 16.00 Uhr</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

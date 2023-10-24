@@ -1,5 +1,3 @@
-src="https://code.jquery.com/jquery-latest.js";
-
 // SMOOTH SCROLL DOWN 
 $(function() {
     $('a[href*=#]').on('click', function(e) {
@@ -9,8 +7,17 @@ $(function() {
   });
 
   
-  //CAROUSEL 
+//SCROLL BACK TO TOP
+$(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 400) {
+      $('.back-to-top').fadeIn();
+    } else {
+      $('.back-to-top').fadeOut();
+    }
+  });
 
+ //CAROUSEL 
 const carouselItems = document.querySelectorAll(".carousel_item"); 
 let i = 1;
 
@@ -22,8 +29,6 @@ setInterval(() => {
     item.style.transform = `translateX(-${i*100}%)`
    }
   })
-
-
   if(i < carouselItems.length){
     i++;
   }
