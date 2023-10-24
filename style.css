@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+::-webkit-scrollbar {  
+    width: 15px; 
+    background: rgb(243, 243, 243);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #a81a2c;
+}
+
+/*********************** Wichtige Klassen ***********************/
+.wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.col-20, .col-30, .col-70, .col-80{
+    display: inline-block;
+}
+.col-20{
+    flex: 1 0 18%;
+}
+.col-80{
+    flex: 1 0 78%;
+}
+.col-30{
+    flex: 1 0 28%;
+}
+.col-70{
+    flex: 1 0 65%;
+}
+/*********************Wichtige IDs*****************/
+#Infos{
+    margin-top: 10vh;
+}
+/******************BILDER*********************/
+img{
+    width: 100%;
+}
+header .col-20 img{
+    width: 30%;
+}
+#Aktivitäten .col-30 img{
+    width: 100%;
+}
+/*********************SCHRIFT**************************/
+h1{
+    font-size: 3em;
+    margin-top: 30vh;
+}
+h1 span{
+    font-size: 2em;
+    font-weight: bold;  
+    text-transform: uppercase;
+    color: white;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0 0 10px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/**********************NAVIGATION ***********************/
+nav{
+    float: right;
+}
+nav ul{
+    margin: 10px 0;
+	list-style-type: none;
+}
+nav ul li{ 
+	float: left;
+	text-align: center;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 2vw;
+    font-size: 18px;
+    float: left;
+}
+li a:hover{
+    color: #a81a2c;
+}
+/***********************HEADER************************/
+header #hintergrundsbild{
+    position: absolute;
+    width: 99vw;
+    height: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    filter: brightness(0.5) contrast(0.7);
+}
+#Navigation{
+    padding: 15px 0;
+    background-color: white;
+}
+header{
+    text-align: center;
+}
+#Navigation .flex{
+    align-items: center;
+}
+/*************************MAIN***************/
+main, #Aktivitäten{
+    margin-top: 30vh;
+}
+main{
+    background-color: white;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 2vh 0;
+}
+button:hover{
+    background-color: #a81a2c;
+    border-color: #a81a2c;
+}
+button:hover a{    
+    color: white;
+}
+/***************CAROUSEL *********************/
+.carousel-container{
+    margin-top: 20vh;
+}
+.carousel_items {
+    display: flex;
+    wrap: nowrap;
+    overflow: hidden;
+  }
+  .carousel_item {
+    position: relative;
+    min-width: 100%;
+    height: 50vh;
+    transition: all 1s linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }/*
+  .carousel_text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: calc(1.5rem + 0.3vw);
+    font-weight: bolder;
+  }
+  */
+  .item1 {
+    background-image: url("img/Murten1.jpg");
+  }
+  .item2 {
+    background-image: url("img/Murten2.jpg");
+  }
+  .item3 {
+    background-image: url("img/Murten3.jpg");
+  }
+  .item4 {
+    background-image: url("img/Murten4.jpg");
+  }
+  .item5 {
+    background-image: url("img/Murten5.jpg");
+  }
+  /*********************ZITAT********************/
+  .zitat{
+    background-color: #ffe6e9;
+    width: 99vw;
+    margin-top: 20vh;
+    text-align: center;
+  }
+  .zitat p span{
+   color: #eca4a4;
+   font-size: 0.6em;
+  }
+  .zitat p{
+    font-size: 1.5em;
+    padding: 5vh 0;
+  }
