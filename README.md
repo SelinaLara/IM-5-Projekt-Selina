@@ -12,6 +12,7 @@ Tag 3: Heute habe ich die 2. Page (Geschichte über Murten) erstellt. Ich hatte 
 Nachdem ich die Bilder und das Design ansprechend fand habe ich noch recherchiert, wie die Bildbeschreibungen/figcaptions funktionieren. (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption). 
 ________________________
 Tag 4: Umsetzen von der Event-Page, inkl. Lightbox
+https://getuikit.com/docs/lightbox
 
 Tag 5: Umsetzen von der Aktivitäten-Page
 
