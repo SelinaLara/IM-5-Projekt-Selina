@@ -109,6 +109,9 @@ h5{
     font-size: 1.1em;
     margin-bottom: 4vh;
 }
+figcaption{
+    font-size: 0.8em;
+}
 /**********************NAVIGATION ***********************/
 nav{
     float: right;
@@ -254,9 +257,8 @@ iframe{
     margin-top: 20vh;
     text-align: center;
   }
-  .zitat p span{
+  .zitat p span, figcaption{
    color: #a8a8a8;
-   font-size: 0.6em;
    font-style: italic;
   }
   .zitat p{
@@ -264,6 +266,9 @@ iframe{
     padding: 5vh 0;
   }
 
+  .zitat p span{
+    font-size: 0.6em;
+   }
   /************FOOTER***********/
   footer{
     margin: 15vh 0 5vh 0;
