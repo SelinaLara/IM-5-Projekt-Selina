@@ -282,7 +282,7 @@ iframe{
 .uk-lightbox-toolbar .wrapper{
     width: 60vw;
 }
-.uk-lightbox-toolbar {
+.uk-active .uk-lightbox-toolbar {
     background: rgba(0,0,0,0.7);
 }
 .uk-lightbox-toolbar button{
