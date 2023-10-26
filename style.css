@@ -90,11 +90,13 @@ h1 span{
     text-transform: uppercase;
 }
 h1 span, h2, h3, h4, h5{
-    font-weight: bold;
+    font-weight: bold !important;
 }
 h2{
-    font-size: 2em;
-    padding: 0 0 10px 0;
+    font-size: 2em !important;
+    padding: 0 0 10px 0 !important;
+    color: black !important;
+    line-height: normal !important;
 }
 a{
     text-decoration: none;
@@ -105,7 +107,7 @@ a{
     padding: 10px 0 20px 0;
 }
 h2, h3, h4, h5{
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 h5{
     padding-bottom: 2vh;
@@ -148,6 +150,7 @@ nav a {
   }
  nav a:hover {
     color: #a81a2c;
+    text-decoration: none;
   }
 nav a:hover::after {
     width: 100%;
@@ -272,4 +275,23 @@ iframe{
     bottom: 5vh;
 }
 
-
+/*********************LIGHTBOX***************/
+.uk-lightbox-toolbar h3{
+    color: white;
+}
+.uk-lightbox-toolbar .wrapper{
+    width: 60vw;
+}
+.uk-lightbox-toolbar {
+    background: rgba(0,0,0,0.7);
+}
+.uk-lightbox-toolbar button{
+    border: 1px solid white;
+}
+.uk-lightbox-toolbar button a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    border: 1px solid #a81a2c;
+}
