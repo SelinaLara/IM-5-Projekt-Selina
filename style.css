@@ -11,13 +11,11 @@
 ::-webkit-scrollbar-thumb{
     background-color: #a81a2c;
 }
-
 /*********************** Wichtige Klassen ***********************/
 .wrapper{
     width: 80vw;
     margin: 0 auto;
 }
-
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +32,9 @@
 }
 .Geschichte-2 .flex{
     margin-top: 5vh;
+}
+.top-15{
+    margin-top: 15vh
 }
 /*COL-KLASSEN*/
 .col-20, .col-30, .col-70, .col-80, .col-25, .col-50{
@@ -62,12 +63,19 @@
     margin-top: 10vh;
 }
 #Zweit-Navigation{
-    width: 99vw;
+    width: 100%;
     background-color: #a81a2c;
 }
 #Navigation{
     padding: 5px 0;
     background-color: white;
+    box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 10px 13px -10px rgba(0,0,0,0.71);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
 }
 /******************BILDER*********************/
 img{
@@ -156,6 +164,9 @@ nav a:hover::after {
     width: 100%;
     border-bottom-color: #a81a2c;
   }
+  #Navigation a{
+    text-transform: uppercase;
+  }
 /*ZWEIT NAVIGATION*/
 #Zweit-Navigation a{
     color: white;
@@ -169,7 +180,7 @@ nav a:hover::after {
 /***********************HEADER************************/
 header #hintergrundsbild{
     position: absolute;
-    width: 99vw;
+    width: 100%;
     height: auto;
     z-index: -1;
     top: 0;
@@ -254,7 +265,6 @@ iframe{
     font-size: 1.5em;
     padding: 5vh 0;
   }
-
   .zitat p span{
     font-size: 0.6em;
    }
@@ -266,7 +276,6 @@ iframe{
     border-top: 1px solid #a8a8a8;
     padding-top: 30px;
 }
-
 .back-to-top {
     display: none;
     width: 3%;
@@ -274,7 +283,6 @@ iframe{
     right: 3vw;
     bottom: 5vh;
 }
-
 /*********************LIGHTBOX***************/
 .uk-lightbox-toolbar h3{
     color: white;
@@ -294,4 +302,32 @@ iframe{
 }
 button:hover{
     border: 1px solid #a81a2c;
+}
+/***************LOADING*********************/
+#gif{
+    position: absolute;
+    left: 45vw;
+    width: 10%;
+    top: 50vh;
+}
+#klein{
+    top: 28vh;
+    position: absolute;
+    left: 48vw;
+    width: 5%;
+}
+.loading-container p{
+    text-transform: uppercase;
+    color: rgb(57, 57, 57);
+    text-align: center;
+    margin-top: 44vh;
+    font-size: 1.5em;
+    z-index: 2;
+    position: relative;
+}
+.loading-container h2{
+    text-align: center;
+    top: 40vh;
+    position: relative;
+    font-size: 3em !important;
 }
