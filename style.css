@@ -25,7 +25,7 @@
 .karten{
     padding: 15px 25px;
     margin-top: -5px;
-    background-color: #ededed;
+    background-color: #ededed78;
 }
 .Geschichte-1, .Geschichte-2, .Geschichte-3, .Geschichte-4{
     margin-top: 15vh;
@@ -83,9 +83,16 @@ img{
 }
 header .col-20 img{
     width: 30%;
+    float: left;
 }
 #Aktivitäten .col-30 img{
     width: 100%;
+}
+#murten{
+    font-size: 1.5em;
+    position: fixed;
+    top: 3.5vh;
+    left: 15vw;
 }
 /*********************SCHRIFT**************************/
 h1{
@@ -308,7 +315,7 @@ button:hover{
     position: absolute;
     left: 45vw;
     width: 10%;
-    top: 50vh;
+    top: 52vh;
 }
 #klein{
     top: 28vh;
