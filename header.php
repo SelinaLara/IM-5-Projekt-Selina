@@ -22,6 +22,7 @@
 			<div class="wrapper flex">
 				<div class="col-20">
 					<img src="img/logo.png" alt="Logo" id="Logo" />
+					<h4 id="murten">Murten / Morat</h4>
 				</div>
 				<div class="col-80">
 					<nav>
