@@ -38,4 +38,16 @@ setInterval(() => {
 },2000)
 
 
-//GOOGLE MAP
+//Aktiver Link
+var fullPath = location.pathname; 
+console.log('Voller Pfad:', fullPath);
+
+var fileName = fullPath.split('/').pop();
+console.log('Dateiname:', fileName);
+
+var links = document.querySelectorAll('nav a');
+links.forEach(function(link) {
+    if (link.getAttribute('href') == fileName) {
+        link.classList.add('active');
+    }
+});
