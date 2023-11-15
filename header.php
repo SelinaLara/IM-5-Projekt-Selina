@@ -30,7 +30,7 @@
 							<li><a href="homepage.php">Home</a></li>
 							<li><a href="geschichte.php">Geschichte</a></li>
 							<li><a href="event.php">Events</a></li>
-							<li><a href="aktivitäten.php">Aktivitäten</a></li>
+							<li><a href="aktivitaeten.php">Aktivitäten</a></li>
 						</ul>
 					</nav>
 				</div>

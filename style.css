@@ -121,13 +121,16 @@ h2, h3, h4, h5{
     text-transform: uppercase !important;
 }
 h2{
-    padding-bottom: 2vh !important;
-    border-bottom: 1px solid black !important;
-    font-size: 1.3em !important;
-    margin-bottom: 4vh !important;
+    padding-bottom: 2vh ;
+    border-bottom: 1px solid black ;
+    font-size: 1.3em ;
+    margin-bottom: 4vh ;
 }
 figcaption{
     font-size: 0.8em;
+}
+#keinStrich{
+    border-bottom: none;
 }
 /**********************NAVIGATION ***********************/
 nav{
@@ -155,7 +158,7 @@ nav a {
     width: 0;
     border-bottom: 0.08em solid #a81a2c;
     position: absolute;
-    bottom: -5px;
+    bottom: -1px;
     left: 0;
     transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
@@ -171,8 +174,8 @@ nav a:hover::after {
     text-transform: uppercase;
   }
   nav a.active {
-    color: #a81a2c;
-    border-bottom: 1px solid #a81a2c;
+    color: #a81a2c; 
+    border-bottom: 0.08em solid #a81a2c;
 }
 /*ZWEIT NAVIGATION*/
 #Zweit-Navigation a{

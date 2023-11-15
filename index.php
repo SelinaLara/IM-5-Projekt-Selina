@@ -16,7 +16,7 @@
 <body>
     <div class="wrapper loading-container">
         <img src="img/logo.png" id="klein" />
-        <h2>Härzlech Wiukomme in Murte!</h2>
+        <h2 id="keinStrich">Härzlech Wiukomme in Murte!</h2>
         <p>Ein Moment bitte!</p>
         <img src="img/loading.gif" id="gif" autoplay />
     </div>
