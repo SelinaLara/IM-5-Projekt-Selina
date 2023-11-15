@@ -2,7 +2,7 @@
  <!-- Lightbox CSS -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.6/dist/css/uikit.min.css" />
 		<div class="wrapper top-15">
-			<h2>Events von Murten</h2>
+            <p>Festivals, Konzerte, Ausstellungen und Gourmet-Touren: Hier finden Sie alle kommenden Veranstaltungen in Murten.</p>
 		</div>
 	</header>
     <aside>

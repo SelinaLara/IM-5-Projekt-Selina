@@ -34,7 +34,8 @@
     margin-top: 5vh;
 }
 .top-15{
-    margin-top: 15vh
+    margin-top: 15vh;
+    text-align: left;
 }
 /*COL-KLASSEN*/
 .col-20, .col-30, .col-70, .col-80, .col-25, .col-50{
@@ -93,6 +94,7 @@ header .col-20 img{
     position: fixed;
     top: 3.5vh;
     left: 15vw;
+    margin-top: 0;
 }
 /*********************SCHRIFT**************************/
 h1{
@@ -107,12 +109,6 @@ h1 span{
 h1 span, h2, h3, h4, h5{
     font-weight: bold !important;
 }
-h2{
-    font-size: 2em !important;
-    padding: 0 0 10px 0 !important;
-    color: black !important;
-    line-height: normal !important;
-}
 a{
     text-decoration: none;
     color: black;
@@ -124,11 +120,11 @@ a{
 h2, h3, h4, h5{
     text-transform: uppercase !important;
 }
-h5{
-    padding-bottom: 2vh;
-    border-bottom: 1px solid black;
-    font-size: 1.1em;
-    margin-bottom: 4vh;
+h2{
+    padding-bottom: 2vh !important;
+    border-bottom: 1px solid black !important;
+    font-size: 1.3em !important;
+    margin-bottom: 4vh !important;
 }
 figcaption{
     font-size: 0.8em;
@@ -174,6 +170,10 @@ nav a:hover::after {
   #Navigation a{
     text-transform: uppercase;
   }
+  nav a.active {
+    color: #a81a2c;
+    border-bottom: 1px solid #a81a2c;
+}
 /*ZWEIT NAVIGATION*/
 #Zweit-Navigation a{
     color: white;

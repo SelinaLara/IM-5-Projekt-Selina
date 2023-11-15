@@ -1,8 +1,4 @@
 <?php include 'header.php';?>
-
-		<div class="wrapper flex top-15">
-			<h2>Die Geschichte der Stadt</h2>
-		</div>
 	</header>
     <aside>
         <div class="flex"></div>
@@ -15,7 +11,7 @@
                 <figcaption>Panoramabild der Murtenschlacht</figcaption>
             </figure>
             <div class="Geschichte-1">
-                <h5>Murten im Mittelalter</h5>
+                <h2>Murten im Mittelalter</h2>
                 <p>
                 Die heutige Stadt entstand um 1170 am südlichen Seeufer. Sie war eine Gründung der Herzöge von Zähringen, die das Reichslehen beanspruchten und durch eine weitere Grenzfeste ihre westlichen Randgebiete sichern wollten. Als nach deren Aussterben Murten 1218 reichsfrei geworden war, wurde es später mit einer Mauer befestigt. In der Zeit des Interregnums kam die Stadt 1255 unter die Schutzherrschaft Savoyens, dem später die Habsburger den Besitz für kurze Zeit streitig machten. Verschiedene Bündnisse mit benachbarten Städten sicherten Murtens Stellung, das sich allmählich baulich erweiterte und mit der Zeit gegenüber den umliegenden Dörfern eine Vorrangstellung einnahm. 1416 fielen die meist aus Holz errichteten Häuser Murtens einem Stadtbrand zum Opfer. Aus Stein wieder aufgebaut trat sie 1476 anlässlich der siegreichen Schlacht der Eidgenossen gegen Karl den Kühnen vor seinen Mauern ins europäische Geschichtsbewusstsein. Bereits ein Jahr zuvor musste sich Murten den Bernern und Freiburgern ergeben und bildete hinfort eine Gemeine Herrschaft der beiden Stände. Diese anerkannten die alten Stadtrechte und liessen Murten abwechslungsweise durch einen Schultheissen, der seinen Amtssitz in dem von den Savoyern erbauten Schloss hatte, verwalten.
                 </p>
@@ -31,7 +27,7 @@
         </div>
         <div class="wrapper">
                 <div class="Geschichte-2">
-                    <h5>Murtenschlacht</h5>
+                    <h2>Murtenschlacht</h2>
                     <p>Mitte Juni 1476 gelangte Karl der Kühne von Lausanne aus nach Murten mit einem Heer, dessen Bestand ca. 25‘000 Mann betragen haben dürfte. Er war damit den Belagerten unter Adrian von Bubenberg im Verhältnis von rund 10:1 überlegen. Dennoch musste er aber mit dem plötzlichen Auftauchen des eidgenössischen Entsatzheeres (1) rechnen und hoffte, Murten vorher in seine Hand zu bekommen, wie es ihm zuvor in Grandson gelungen war. Zum Schutz seines eigenen Heeres gegen einen Angriff der Eidgenossen unterhielt er eine Feldwache beim so genannten Grünhag (2). Er selber vermochte von seinem Hauptquartier auf dem „Bois Domingue“ (3) aus einerseits den Fortschritt der Belagerung, andererseits das Eintreffen des feindlichen Heeres zu beobachten.
                     </p>
                     <div class="flex">
@@ -60,7 +56,7 @@
         <div class="wrapper">
             <div class="Geschichte-3 flex">
                 <div class="col-50">
-                    <h5>Adrian von Bubenberg in Murten</h5>   
+                    <h2>Adrian von Bubenberg in Murten</h2>   
                     <p>    
                         Die tapfere Verteidigung der Stadt Murten unter Adrian von Bubenberg und der Sieg der helvetischen Armee am 22. Juni 1476 etablierten die Eidgenossenschaft unter den europäischen Mächten.
                     <br /> <br />
@@ -83,7 +79,7 @@
                     </figure>
                 </div>
                 <div class="col-50">
-                    <h5>Elefant von Murten</h5>    
+                    <h2>Elefant von Murten</h2>    
                     <p>
                         Der Elefant von Murten († 29. Juni 1866) war ein Zirkuselefant, der in der Schweizer Kleinstadt Murten im Kanton Freiburg seinen Wärter tötete und anschliessend durch eine Kanonenkugel zu Tode gebracht wurde. 
                         <br /><br />
