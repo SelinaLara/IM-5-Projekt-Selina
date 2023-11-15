@@ -341,3 +341,13 @@ button:hover{
     position: relative;
     font-size: 3em !important;
 }
+/*AKTIVITÄTEN*/
+#aktivitäten h3{
+    margin: 5vh 0 2vh 0 !important;
+}
+#aktivitäten h2{
+    margin-top: 5vh !important;
+}
+#aktivitäten{
+    margin-top: 10vh;
+}
