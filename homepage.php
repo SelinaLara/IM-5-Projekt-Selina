@@ -57,7 +57,7 @@
                             Gerne bieten wir ihnen jedes Jahr verschiedenste Festivals an. Dabei passen wir unser Angebot stets der Jahreszeit an, so kann man beispielsweise im Sommer am Stars of Sounds mittanzen oder im Winter das Lichterfestival mit einem Glühwein geniessen. 
                             <br /> <br />
                              Klicken sie auf den Link und finden sie mehr heraus!</p>
-                             <button><a href="event.html">Mehr Events</a></button>
+                             <button><a href="event.php">Mehr Events</a></button>
                     </div>
                     <div class="col-70">
                     <div class="carousel_items">
@@ -83,7 +83,7 @@
                         <div class="karten">
                             <h3>Altstadt</h3>
                             <p>Besuche die Altstadt von Murten! Mache einen gemütlichen Spaziergang über die Ringmauer mit einer fabelhaften Aussicht, oder lerne die verschiedenen Shops und Restaurants besser kennen. </p>
-                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                            <button><a href="aktivitäten.php">Mehr Infos</a></button>
                         </div>
                     </div>
                     <div class="col-25">
@@ -91,7 +91,7 @@
                         <div class="karten">
                             <h3>Museum</h3>
                             <p>Tauche ein in die Geschichte von Murten und lerne Neues! Das Museum Murten gehört zu den ältesten Museen im Kanton Freiburg. Seit 1978 hat es seinen Standort in der alten Stadtmühle ausserhalb der Stadtmauern.  </p>
-                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                            <button><a href="aktivitäten.php">Mehr Infos</a></button>
                         </div>
                     </div>
                     <div class="col-25">
@@ -99,7 +99,7 @@
                         <div class="karten">
                             <h3>Hafen</h3>
                             <p>Der Hafen von Murten ist recht klein, aber sehr zentral gelegen. Die wunderschöne Stadt ist direkt zugänglich und lädt zum Erkunden ein. Gäste finden alles, was sie brauchen. Daher ist der Hafen sehr beliebt.</p>
-                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                            <button><a href="aktivitäten.php">Mehr Infos</a></button>
                         </div>
                     </div>
                     <div class="col-25">
@@ -107,7 +107,7 @@
                         <div class="karten">
                             <h3>Shoppen</h3>
                             <p>Lebensmittel, Kleidung, Schmuck oder Souvenirs? Mehr als 15 Geschäfte und charmante Boutiquen bieten Ihnen ein vielfältiges Angebot an Produkten und Handwerkskunst, welches zum Bummeln einlädt. </p>
-                            <button><a href="aktivitäten.html">Mehr Infos</a></button>
+                            <button><a href="aktivitäten.php">Mehr Infos</a></button>
                         </div>
                     </div>
                 </div>
