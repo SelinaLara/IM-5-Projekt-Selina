@@ -8,10 +8,26 @@
         <div class="wrapper top-15 flex">
             <div class="altstadt">
                 <h2>Altstadt</h2>
-                <p>Wie wäre es mit einer Entdeckungsreise durch die Altstadt von Murten kombiniert mit einem spannenden Rätsel oder einer Schatzsuche? Auf diese Weise können Gross und Klein die Geheimnisse der mittelalterlichen Stadt lüften, die oftmals sehr gut versteckt sind. Auf dem geheimnisvollen Rundgang Circuit Secret Murten Licht können Sie sechs versteckte Orte inmitten der Altstadt von Murten entdecken, zu denen nur Sie den Schlüssel haben.
-                    <br/>
-                    Gehen Sie durch das berühmte Berntor und schlendern Sie sich durch die vielen schmalen Gassen und Lauben der Altstadt mit ihren schmucken barocken Häusern, die wie an einer Perlenkette aufgereiht sind. Von den zahlreichen Aussichtspunkten und Terrassen geniesst man einen wunderbaren Blick auf den Murtensee, die Weinregion am Fuss des Mont Vully und sogar auf das sanft hügelige Jura am Horizont. Die hübsche Silhouette der Altstadt ist von der Seepromenade aus am eindrucksvollsten. 
-                </p>
+                <div class="flex">
+                    <div class="col-50">
+                        <p>Wie wäre es mit einer Entdeckungsreise durch die Altstadt von Murten kombiniert mit einem spannenden Rätsel oder einer Schatzsuche? Auf diese Weise können Gross und Klein die Geheimnisse der mittelalterlichen Stadt lüften, die oftmals sehr gut versteckt sind. Auf dem geheimnisvollen Rundgang Circuit Secret Murten Licht können Sie sechs versteckte Orte inmitten der Altstadt von Murten entdecken, zu denen nur Sie den Schlüssel haben.
+                        <br/>
+                        Gehen Sie durch das berühmte Berntor und schlendern Sie sich durch die vielen schmalen Gassen und Lauben der Altstadt mit ihren schmucken barocken Häusern, die wie an einer Perlenkette aufgereiht sind. Von den zahlreichen Aussichtspunkten und Terrassen geniesst man einen wunderbaren Blick auf den Murtensee, die Weinregion am Fuss des Mont Vully und sogar auf das sanft hügelige Jura am Horizont. Die hübsche Silhouette der Altstadt ist von der Seepromenade aus am eindrucksvollsten. 
+                        </p>
+                    </div>
+                    <div class="col-50 flex">
+                        <div class="slider">
+                            <img class="Slideshow" src="img/altstadt/1.jpg">
+                            <img class="Slideshow" src="img/altstadt/2.jpg">
+                            <img class="Slideshow" src="img/altstadt/3.jpg">
+                            <img class="Slideshow" src="img/altstadt/4.jpg">
+                        </div>
+                        <div class="controllers">
+                            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="museum">
                 <h2>Museum</h2>

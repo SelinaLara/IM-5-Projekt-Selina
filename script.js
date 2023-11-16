@@ -51,3 +51,23 @@ links.forEach(function(link) {
         link.classList.add('active');
     }
 });
+
+
+//Slideshow mit Controller
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var y;
+  var x = document.getElementsByClassName("Slideshow");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (y = 0; y < x.length; y++) {
+    x[y].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}

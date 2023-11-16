@@ -351,3 +351,10 @@ button:hover{
 #aktivitäten{
     margin-top: 10vh;
 }
+
+
+
+
+.altstadt .flex{
+    justify-content: center;
+}
