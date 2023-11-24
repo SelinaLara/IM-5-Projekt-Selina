@@ -351,10 +351,200 @@ button:hover{
 #aktivitäten{
     margin-top: 10vh;
 }
-
-
-
-
 .altstadt .flex{
     justify-content: center;
+}
+
+/*******************BURGER*******************/
+
+label{
+    display: none;
+}
+
+label .menu {
+    position: fixed;
+    right: -100px;
+    top: -100px;
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    background: #66CCC0;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+    cursor: pointer;
+    
+  }
+  
+  label .hamburger {
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    width: 30px;
+    height: 2px;
+    background: white;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+  }
+  
+  label .hamburger:after, label .hamburger:before {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+  
+  label .hamburger:before { top: -10px; }
+  
+  label .hamburger:after { bottom: -10px; }
+  
+  label input { display: none; }
+  
+  label input:checked + .menu {
+    box-shadow: 0 0 0 100vw #66CCC0, 0 0 0 100vh #66CCC0;
+    border-radius: 0;
+    
+  }
+  
+  label input:checked + .menu .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+  }
+  
+  label input:checked + .menu .hamburger:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+    
+  }
+  
+  label input:checked + .menu .hamburger:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 0;
+    
+  }
+  
+  label input:checked + .menu + ul { opacity: 1; }
+  
+  label ul {
+    z-index: 200;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: .25s 0s ease-in-out;
+    transition: .25s 0s ease-in-out;
+  }
+  
+  label a {
+    margin-bottom: 2em;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+label li {
+    float: left;
+    text-align: center;
+    clear: both;
+}
+
+label li p{
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: left;
+
+}
+
+
+/******************RESPONSIVE**********************/
+
+@media only screen and (max-width: 1024px) {
+    #murten{
+        top: 1vh;
+    }
+    h1{
+        margin-top: 13vh;
+    }
+    #index-main, #Aktivitäten {
+        margin-top: 8vh;
+    }
+    .zitat {
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .carousel-container {
+        margin-top: 10vh;
+    }
+    .col-30 {
+        flex: 1 0 33%;
+    }
+    .col-70{
+        flex: 1 0 75%;
+    }
+    #Aktivitäten .col-25{
+        flex: 1 0 33%;
+    }
+    .back-to-top {
+        width: 5%;
+        right: 2vw;
+        bottom: 4vh;
+    }
+    .Geschichte-1, .Geschichte-2, .Geschichte-3, .Geschichte-4 {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    #Navigation, #Zweit-Navigation{
+        display: none;
+    }
+    label{
+        display: table;
+    }
+    .lightboxes .col-25{
+        flex: 1 0 30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  
+    .back-to-top {
+        display: none;
+        width: 5%;
+        position: fixed;
+        right: 2vw;
+        bottom: 4vh;
+    }
+    footer .col-25{
+        text-align: center;
+    }
+    .back-to-top {
+        width: 14%;
+        right: 4vw;
+        bottom: 2vh;
+    }
+   .col-25 {
+        flex: 1 0 100%;
+    }
+    figure{
+        margin-top: 5vh;
+    }
+    .Geschichte-1{
+        margin-top: 5vh;
+    }
 }

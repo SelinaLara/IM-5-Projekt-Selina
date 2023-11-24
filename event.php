@@ -10,7 +10,7 @@
         <a href="#start"><img src="img/up-arrow.png" class="back-to-top"/></a>
     </aside>
     <main>      
-        <div class="wrapper">
+        <div class="wrapper lightboxes">
             <div class="flex" uk-grid uk-lightbox="animation: slide">
                 <div class="col-25">
                     <a class="uk-inline" href="img/events/Karaoke.jpg" data-caption="<div class='wrapper'><h3>Karaoke</h3><p>Jeden Mittwoch findet unsere beliebte Karaoke Night statt. Wärmt eure Stimmbänder auf und überlegt euch welche Hits ihr mit viel Leidenschaft singen wollt. Die Auswahl an Songs ist riesig und es hat bestimmt für jeden etwas dabei.</p><button><a href='https://fribourg.ch/de/regionmurtensee/veranstaltungen/karaoke-night-laeif-musik-bar/' target='blank'>Mehr Infos</a></button></div>">

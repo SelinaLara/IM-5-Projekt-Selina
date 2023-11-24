@@ -17,7 +17,17 @@
 </head>
 <body>
 	<header id="start">
-        
+		<label>
+			<input type="checkbox">
+			<span class="menu"> <span class="hamburger"></span> </span>
+			<ul>
+				<li><a href="homepage.php">Home</a></li>
+				<li><a href="geschichte.php">Geschichte</a></li>
+				<li><a href="event.php">Events</a></li>
+				<li><a href="aktivitaeten.php">Aktivitäten</a></li>
+				<img src="img/logo.png" alt="Logo" id="Logo" />
+			</ul>		
+		</label>
 		<div id="Navigation">
 			<div class="wrapper flex">
 				<div class="col-20">
