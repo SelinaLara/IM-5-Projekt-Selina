@@ -409,7 +409,7 @@ label .menu {
   label input { display: none; }
   
   label input:checked + .menu {
-    box-shadow: 0 0 0 100vw #66CCC0, 0 0 0 100vh #66CCC0;
+    box-shadow: 0 0 0 100vw #a81a2c, 0 0 0 100vh  #a81a2c;
     border-radius: 0;
     
   }
@@ -454,22 +454,16 @@ label .menu {
     color: white;
     text-decoration: none;
     text-align: center;
+    font-size: 1.5em;
     
   }
 label li {
     float: left;
     text-align: center;
     clear: both;
-}
-
-label li p{
-    color: white;
-    font-size: 0.8em;
-    font-style: italic;
-    text-align: left;
+    list-style-type: none;
 
 }
-
 
 /******************RESPONSIVE**********************/
 
@@ -546,5 +540,9 @@ label li p{
     }
     .Geschichte-1{
         margin-top: 5vh;
+    }
+    h1{
+        font-size: 1.5em;
+        margin-top: 7vh;
     }
 }
