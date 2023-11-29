@@ -18,3 +18,6 @@ ________________________
 Tag 6: Für die Aktivitäten page habe ich ein wenig herumgespielt. ich habe einen neue Slideshow eingefügt (manuelle), dabei hat mir Chat GPT geholfen. Des weiteren habe ich probiert mit Instagram Beiträge einzubeten, da man aber heutzutage auch hier API's braucht, und ich mir kein professioneller Meta Account erstellen wollte, habe ich diesen Versuch abgebrochen. Auch das einfügen einer Website via einem iframe, habe ich am Schluss gelöscht. Daher habe ich mich für ein simples Design entschieden. 
 ________________________
 Tag 7: Heute habe ich das ganze Responsive gemacht. Dafür habe ich noch eine Burgernavigation eingefügt. Ich startete mit der Grösse eines iPad Pros, und endete bei einem iPhone 12 Pro. Anschliessend habe ich noch eine Zwischengrösse angepasst, damit es auf jeder Grösse gut aussehen soll.
+________________________
+# Anmerkung
+Mein Bachelorthema hat sich im Laufe der Zeit angepasst. Definitiv geändert hat es sich erst, nachdem ich schon fast meine ganze Website vervollständigte. Deswegen wird sie nicht mehr zu 100% mit dem Thema übereinstimmen. Anstelle den Fokus auf Tourismus zu legen, habe ich mich für Social Recruiting im Bereich Tourismus entschieden. 
